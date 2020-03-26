@@ -1,2 +1,45 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+body {
+    font-family: 'Oxanium';
+}
+
+.masthead {
+    padding-top: 4rem !important;
+}
+
+#title-logo {
+    padding-bottom: 7px;
+}
+
+#homepages {
+    margin-left: 30px;
+}
+
+.knophomepage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .portfolio-item:hover .caption {
+        background-color: rgba(247, 148, 29, .9);
+    }
+}
+
+.bg-grey {
+    background-color: grey !important;
+    color: #fff;
+}
+
+.bg-logo-orange {
+    background-color: rgba(247, 148, 29);
+}
+
+.c-logo-orange {
+    color: rgba(247, 148, 29) !important;
+}
+
+#sidebar-wrapper {
+    background: rgba(247, 148, 29);
+}
