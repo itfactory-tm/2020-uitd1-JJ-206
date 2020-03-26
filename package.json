@@ -1,28 +1,38 @@
 {
-    "title": "1ITF uitdaging 1",
-    "name": "1ITF_uitdaging_1",
-    "version": "1.0.0",
-    "description": "A stylish portfolio HTML template built with Bootstrap.",
-    "keywords": [
-        "1ITF",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/",
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pverhaert/1ITF_onepage_stylish_portfolio.git"
-    },
-    "devDependencies": {
-        "browser-sync": "^2.26.7",
-        "gulp": "^4.0.2"
-    }
+  "title": "1ITF uitdaging 1",
+  "name": "1itf_uitdaging_1",
+  "version": "1.0.0",
+  "description": "A stylish portfolio HTML template built with Bootstrap.",
+  "keywords": [
+    "1ITF",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/",
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pverhaert/1ITF_onepage_stylish_portfolio.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pverhaert/1ITF_onepage_stylish_portfolio/issues"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

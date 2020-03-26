@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Lumios webbureau">
     <meta name="author" content="Seppe Wuyts/Rik Van Eysendeyk/Volkert Moreels">
@@ -180,7 +180,9 @@
                 </div>
             </div>
         </div>
-    </section>
+
+    </div>
+</section>
 
     <!-- Call to Action -->
     <section class="content-section bg-logo-orange text-black">
@@ -194,42 +196,73 @@
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="content-section bg-grey">
-        <div class="container text-center">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Contact</h3>
-                <h2 class="mb-5">Stuur ons een bericht</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, explicabo iusto? Adipisci aliquam animi
-                autem, cupiditate doloremque enim id nulla numquam quae quasi, qui quidem tempore vel, veniam voluptatem
-                voluptatibus!</p>
+<!-- Contact -->
+<section id="contact" class="content-section">
+    <div class="container text-center">
+        <div class="content-section-heading text-center">
+            <h1 class="text-secondary mb-0">Contacteer ons!</h1>
+            <h3 class="mb-5">Heb je een vraag over onze webruimte? Neem dan contact op met ons!</h3>
         </div>
-    </section>
+        <form action="https://rikve.sinners.be/submit.php" method="post">
+            <p>
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" size="40" maxlength="20" name="name" placeholder="voer je naam in." required>
+            </p>
+            <p>
+                <label for="email">Email:<sup></sup></label>
+                <input type="email" id="email" name="mail" required placeholder="Voer je email in voor de reply">
+            </p>
+            <p>
+                <label for="tel">Telefoonnummer:</label>
+                <input type="tel" id="tel" name="nummer" placeholder="(optioneel) Voer je Telefoon nummer in">
+            </p>
+            <p>
+                <label for="bericht">Graag hier uw vraag</label>
+            </p>
+            <p>
+                <textarea rows="5" cols="25" id="bericht" name="feedback" required></textarea>
+            </p>
 
-    <!-- Footer -->
-    <footer class="footer text-center bg-logo-orange">
-        <div class="container">
-            <ul class="list-inline mb-5">
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white bg-grey mr-3" href="#">
-                        <i class="icon-social-facebook"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white bg-grey mr-3" href="#">
-                        <i class="icon-social-twitter"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle bg-grey text-white" href="#">
-                        <i class="icon-social-github"></i>
-                    </a>
-                </li>
-            </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Lumios</p>
-        </div>
-    </footer>
+            <p>
+                <input type="submit" value="verstuur de gegevens.">
+            </p>
+
+            <p>
+                <input type="reset" value="haal de velden leeg">
+            </p>
+    </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+    <div class="container">
+        <ul class="list-inline mb-5">
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="#">
+                    <i class="icon-social-facebook"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="#">
+                    <i class="icon-social-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="#">
+                    <i class="icon-social-github"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+</a>
+
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
