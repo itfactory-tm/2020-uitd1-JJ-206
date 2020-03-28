@@ -43,3 +43,7 @@ body {
 #sidebar-wrapper {
     background: rgba(247, 148, 29);
 }
+
+.menu-toggle {
+    border-radius: 50%
+}
