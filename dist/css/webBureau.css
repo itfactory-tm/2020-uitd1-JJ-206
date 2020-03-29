@@ -44,6 +44,18 @@ body {
     background: rgba(247, 148, 29);
 }
 
-.menu-toggle {
-    border-radius: 50%
+.rounded-bright {
+    border-radius: 0px 0px 100px 0px;
+}
+
+.rounded-tright {
+    border-radius: 0px 100px 0px 0px;
+}
+
+.rounded-tleft {
+    border-radius: 100px 0px 0px 0px;
+}
+
+.rounded-bleft {
+    border-radius: 0px 0px 0px 100px;
 }
