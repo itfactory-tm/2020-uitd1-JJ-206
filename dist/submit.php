@@ -21,6 +21,17 @@
 
     <!-- CSS: eigen stylesheet -->
     <link rel="stylesheet" href="css/webBureau.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
 
 </head>
 <body id="submit">
@@ -88,23 +99,26 @@
 
     }
     ?>
+</ul>
+
+
 
 <!-- Footer -->
 <footer class="footer text-center">
     <div class="container">
         <ul class="list-inline mb-5">
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="#">
+                <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/Lumios-107159604269991">
                     <i class="icon-social-facebook"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="#">
+                <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/Lumios11">
                     <i class="icon-social-twitter"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white" href="#">
+                <a class="social-link rounded-circle text-white" href="https://github.com/itfactory-tm/2020-uitd1-JJ-206">
                     <i class="icon-social-github"></i>
                 </a>
             </li>

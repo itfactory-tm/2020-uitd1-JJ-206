@@ -1,7 +1,9 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 body {
-    font-family: 'Oxanium';
+    font-family: 'Oxanium', sans-serif;
+    background-color: rgb(247, 148, 29);
+    color: black;
 }
 
 .masthead {
@@ -33,15 +35,15 @@ body {
 }
 
 .bg-logo-orange {
-    background-color: rgba(247, 148, 29);
+    background-color: rgb(247, 148, 29);
 }
 
 .c-logo-orange {
-    color: rgba(247, 148, 29) !important;
+    color: rgb(247, 148, 29) !important;
 }
 
 #sidebar-wrapper {
-    background: rgba(247, 148, 29);
+    background: rgb(247, 148, 29);
 }
 
 .rounded-bright {
@@ -58,4 +60,12 @@ body {
 
 .rounded-bleft {
     border-radius: 0px 0px 0px 100px;
+}
+
+.masthead {
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/main.jpg); !important;
+}
+
+.callout {
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/orange.jpg); !important;
 }
