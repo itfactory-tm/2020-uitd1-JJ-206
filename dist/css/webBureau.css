@@ -46,26 +46,30 @@ body {
     background: rgb(247, 148, 29);
 }
 
-.rounded-bright {
-    border-radius: 0px 0px 100px 0px;
-}
+@media (min-width: 992px) {
+    .rounded-bright {
+        border-radius: 0px 0px 100px 0px;
+    }
 
-.rounded-tright {
-    border-radius: 0px 100px 0px 0px;
-}
+    .rounded-tright {
+        border-radius: 0px 100px 0px 0px;
+    }
 
-.rounded-tleft {
-    border-radius: 100px 0px 0px 0px;
-}
+    .rounded-tleft {
+        border-radius: 100px 0px 0px 0px;
+    }
 
-.rounded-bleft {
-    border-radius: 0px 0px 0px 100px;
+    .rounded-bleft {
+        border-radius: 0px 0px 0px 100px;
+    }
 }
 
 .masthead {
-    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/main.jpg); !important;
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/main.jpg);
+     !important;
 }
 
 .callout {
-    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/orange.jpg); !important;
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/orange.jpg);
+     !important;
 }
