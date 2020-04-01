@@ -73,7 +73,7 @@
 </nav>
 
 <h1>Bedankt voor uw vraag!</h1>
-<p>We gaan met uw vraag bekijken. Hieronder kan je nog eens nalezen wat je hebt ingestuurd.</p>
+<p>We gaan uw vraag bekijken. Hieronder kan je nog eens nalezen wat je hebt ingestuurd.</p>
 <ul>
     <?php
     $missing = FALSE;
