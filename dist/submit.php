@@ -81,10 +81,10 @@
         echo "<li><p> Er werdt geen Email ingevuld. </p></li>";
     }
 
-    if (isset($_POST['nummer']) && $_POST['nummer'] != "") {
-        echo "<li><p> Telefoonnummer: " . $_POST['nummer'] . "</p></li>";
+    if (isset($_POST['datum']) && $_POST['datum'] != "") {
+        echo "<li><p> Geboortedatum: " . $_POST['datum'] . "</p></li>";
     } else {
-        echo "<li><p> Er werdt geen Telefoonnummer ingevuld. </p></li>";
+        echo "<li><p> Er werdt geen Geboortedatum ingevuld. </p></li>";
     }
 
     if (isset($_POST['feedback']) && $_POST['feedback'] != "") {
