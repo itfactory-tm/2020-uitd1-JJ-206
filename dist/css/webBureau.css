@@ -79,6 +79,16 @@ body {
     background-size: cover;
 }
 
+.foto {
+    border-radius: 50%;
+    max-width: 95px;
+    max-height: 95px;
+    margin-bottom: 10px;
+}
+
+.rol {
+    color: dimgray;
+
 .margin-bot {
     margin-bottom: 40px
 }
@@ -91,4 +101,5 @@ body {
 
 .button:hover {
     transform: scale(1.2);
+
 }

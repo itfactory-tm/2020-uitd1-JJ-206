@@ -42,28 +42,38 @@
 <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="index.html#page-top">Start Bootstrap</a>
+            <a class="js-scroll-trigger" href="index.html#page-top">Lumios <img src="img/LUMIOS.svg" alt="Lumios Logo" height="50" width="auto"></a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="index.html#page-top">Home</a>
+            <a class="js-scroll-trigger" href="index.html#page-top"><span class="material-icons">
+                        home
+                    </span> Home</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="index.html#about">About</a>
+            <a class="js-scroll-trigger" href="index.html#about"><span class="material-icons">
+                        menu_book
+                    </span> Over Lumios</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="index.html#services">Services</a>
+            <a class="js-scroll-trigger" href="index.html#services"><span class="material-icons">
+                        account_box
+                    </span> Team</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="index.html#portfolio">Portfolio</a>
+            <a class="js-scroll-trigger" href="index.html#portfolio"><span class="material-icons">
+                        perm_media
+                    </span> Projecten</a>
         </li>
         <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="index.html#contact">Contact</a>
+            <a class="js-scroll-trigger" href="index.html#contact"><span class="material-icons">
+                        question_answer
+                    </span> Contact</a>
         </li>
     </ul>
 </nav>
 
 <h1>Bedankt voor uw vraag!</h1>
-<p>We gaan met uw vraag van slag. Hieronder kan je nog eens nalezen wat je hebt ingestuurd.</p>
+<p>We gaan uw vraag bekijken. Hieronder kan je nog eens nalezen wat je hebt ingestuurd.</p>
 <ul>
     <?php
     $missing = FALSE;
@@ -108,17 +118,17 @@
     <div class="container">
         <ul class="list-inline mb-5">
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/Lumios-107159604269991">
+                <a class="social-link rounded-circle text-white mr-3 bg-grey" href="https://www.facebook.com/Lumios-107159604269991">
                     <i class="icon-social-facebook"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/Lumios11">
+                <a class="social-link rounded-circle text-white mr-3 bg-grey" href="https://twitter.com/Lumios11">
                     <i class="icon-social-twitter"></i>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a class="social-link rounded-circle text-white" href="https://github.com/itfactory-tm/2020-uitd1-JJ-206">
+                <a class="social-link rounded-circle text-white bg-grey" href="https://github.com/itfactory-tm/2020-uitd1-JJ-206">
                     <i class="icon-social-github"></i>
                 </a>
             </li>
