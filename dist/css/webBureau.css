@@ -66,10 +66,11 @@ body {
 
 .masthead {
     background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/main.jpg);
-     !important;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .callout {
     background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/orange.jpg);
-     !important;
+    background-size: cover;
 }
